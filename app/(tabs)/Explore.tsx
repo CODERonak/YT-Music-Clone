@@ -2,11 +2,15 @@ import { View, Text } from 'react-native'
 import React from 'react'
 
 const Explore = () => {
-  return (
-    <View>
-      <Text>Explore</Text>
-    </View>
-  )
+    return (
+        // background color
+        <View className='bg-black flex-1'>
+            {/* Main container */}
+            <View>
+
+            </View>
+        </View>
+    )
 }
 
 export default Explore
