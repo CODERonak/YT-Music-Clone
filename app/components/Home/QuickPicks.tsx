@@ -7,11 +7,10 @@ const QuickPicks = () => {
     // for rendering the songs details
     const renderItem = ({ item }) => {
         return (
-            // added the extra view for avoiding the android ripple to overflow
-
+            // for making the song item a pressable
             <Pressable
                 android_ripple={{ color: 'rgba(255, 255, 255, 0.2)', foreground: true, }}
-                className='flex flex-row ml-6 items-center p-2 rounded-md w-96 overflow-hidden'>
+                className='flex flex-row items-center p-2 rounded-md w-96 overflow-hidden'>
                 {/* song image */}
                 <View>
                     <Image
@@ -23,7 +22,7 @@ const QuickPicks = () => {
                 {/* song name and artists */}
                 <View className='ml-4'>
                     <Text className='text-white text-l font-bold'>{item.name}</Text>
-                    <Text className='text-gray-500 text-sm '>{item.artist}</Text>
+                    <Text className='text-gray-400 text-sm '>{item.artist}</Text>
                 </View>
             </Pressable>
 
@@ -32,9 +31,9 @@ const QuickPicks = () => {
 
     return (
         // main container
-        <View>
+        <View className='mt-10 ml-4'>
             {/* Heading */}
-            <View className='mt-10 ml-6'>
+            <View>
                 <Text className='text-white text-2xl font-bold mb-4'>Quick Picks</Text>
             </View>
 
