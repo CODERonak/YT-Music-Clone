@@ -27,12 +27,12 @@ const QuickPickSongs = [
         image: "https://bucthfjkxohgkfhnervm.supabase.co/storage/v1/object/sign/YT%20Music%20Clone%20Bucktet/Images/Arjan%20vailley.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJZVCBNdXNpYyBDbG9uZSBCdWNrdGV0L0ltYWdlcy9BcmphbiB2YWlsbGV5LmpwZyIsImlhdCI6MTczODc0NjgzNSwiZXhwIjoxNzcwMjgyODM1fQ.ntDi-Rns8PvfVxPhcrLMaCT9g7Hkuwes37IbD8CGrxE"
     },
 
-    {
-        id: 5,
-        name: "Bhool Bhulaiyaa 2 Title Track",
-        artist: "Neeraj Shridhar, Mellow D & Bob",
-        image: "https://bucthfjkxohgkfhnervm.supabase.co/storage/v1/object/sign/YT%20Music%20Clone%20Bucktet/Images/Bhool%20bhulaiyaa.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJZVCBNdXNpYyBDbG9uZSBCdWNrdGV0L0ltYWdlcy9CaG9vbCBiaHVsYWl5YWEuanBnIiwiaWF0IjoxNzM4NzQ2OTE3LCJleHAiOjE3NzAyODI5MTd9.J0-c6JEjnBxVcD4OlH6FtWflrF2lGB_pcQ-iaVECzP4"
-    },
+    // {
+    //     id: 5,
+    //     name: "Bhool Bhulaiyaa 2 Title Track",
+    //     artist: "Neeraj Shridhar, Mellow D & Bob",
+    //     image: "https://bucthfjkxohgkfhnervm.supabase.co/storage/v1/object/sign/YT%20Music%20Clone%20Bucktet/Images/Bhool%20bhulaiyaa.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJZVCBNdXNpYyBDbG9uZSBCdWNrdGV0L0ltYWdlcy9CaG9vbCBiaHVsYWl5YWEuanBnIiwiaWF0IjoxNzM4NzQ2OTE3LCJleHAiOjE3NzAyODI5MTd9.J0-c6JEjnBxVcD4OlH6FtWflrF2lGB_pcQ-iaVECzP4"
+    // },
 ]
 
 export default QuickPickSongs

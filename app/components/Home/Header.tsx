@@ -59,7 +59,6 @@ const Header = () => {
                 horizontal
                 showsHorizontalScrollIndicator={false}
                 renderItem={({ item }) => (
-                    // for adding it in a conatainer
                     <View className='mt-6'>
                         {/* for making it a button */}
                         <Pressable
