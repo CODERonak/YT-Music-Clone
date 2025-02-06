@@ -20,7 +20,7 @@ const Albums = () => {
                 renderItem={({ item }) => {
                     return (
                         // to make the album item a button
-                        <Pressable className='ml-4'>
+                        <Pressable className='ml-4' android_ripple={{ color: 'rgba(255, 255, 255, 0.2)', foreground: true }}>
                             {/* Album image */}
                             <Image
                                 source={{ uri: item.image }}
