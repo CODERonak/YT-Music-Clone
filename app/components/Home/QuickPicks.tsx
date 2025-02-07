@@ -31,7 +31,7 @@ const QuickPicks = () => {
 
     return (
         // main container
-        <View className='mt-10 ml-4'>
+        <View className='mt-10 ml-6'>
             {/* Heading */}
             <View>
                 <Text className='text-white text-2xl font-bold mb-4'>Quick Picks</Text>

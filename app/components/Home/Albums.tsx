@@ -5,7 +5,7 @@ import AlbumsData from '@/Data/AlbumsData'
 const Albums = () => {
     return (
         // main container
-        <View className='mt-8 ml-4 '>
+        <View className='mt-8 ml-6 '>
             {/* Heading */}
             <View className=''>
                 <Text className='text-white text-2xl font-bold mb-4'>Albums for you</Text>
