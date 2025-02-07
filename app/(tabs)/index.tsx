@@ -4,18 +4,20 @@ import Header from '@/app/components/Home/Header';
 import QuickPicks from '@/app/components/Home/QuickPicks';
 import Albums from '@/app/components/Home/Albums';
 import BCardio from '@/app/components/Home/BCardio';
+import Explore from '@/app/components/Home/Explore';
 
 const Index = () => {
     return (
         <View className="bg-black h-full">
-            <ScrollView 
-                showsVerticalScrollIndicator={false} 
+            <ScrollView
+                showsVerticalScrollIndicator={false}
                 contentContainerStyle={{ paddingBottom: 50 }}
             >
                 <Header />
                 <QuickPicks />
                 <Albums />
                 <BCardio />
+                <Explore />
             </ScrollView>
         </View>
     );
