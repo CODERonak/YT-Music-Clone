@@ -1,20 +1,24 @@
-import { View, Text } from 'react-native'
-import React from 'react'
-import Header from '@/app/components/Home/Header'
-import QuickPicks from '@/app/components/Home/QuickPicks'
-import Albums from '@/app/components/Home/Albums'
+import { View, ScrollView } from 'react-native';
+import React from 'react';
+import Header from '@/app/components/Home/Header';
+import QuickPicks from '@/app/components/Home/QuickPicks';
+import Albums from '@/app/components/Home/Albums';
+import BCardio from '@/app/components/BCardio';
 
-// Home screen
-const index = () => {
+const Index = () => {
     return (
-        // background color
-        <View className='bg-black h-full'>
-            {/* Main container */}
+        <View className="bg-black h-full">
+            <ScrollView 
+                showsVerticalScrollIndicator={false} 
+                contentContainerStyle={{ paddingBottom: 50 }}
+            >
                 <Header />
                 <QuickPicks />
                 <Albums />
+                <BCardio />
+            </ScrollView>
         </View>
-    )
-}
+    );
+};
 
-export default index
+export default Index;
