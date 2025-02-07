@@ -3,7 +3,7 @@ import React from 'react';
 import Header from '@/app/components/Home/Header';
 import QuickPicks from '@/app/components/Home/QuickPicks';
 import Albums from '@/app/components/Home/Albums';
-import BCardio from '@/app/components/BCardio';
+import BCardio from '@/app/components/Home/BCardio';
 
 const Index = () => {
     return (
