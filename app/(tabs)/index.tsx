@@ -4,7 +4,7 @@ import Header from '@/app/components/Home/Header';
 import QuickPicks from '@/app/components/Home/QuickPicks';
 import Albums from '@/app/components/Home/Albums';
 import BCardio from '@/app/components/Home/BCardio';
-import Explore from '@/app/components/Home/Explore';
+import Explore from '@/app/components/Home/ExploreComp';
 
 // created the components array to render it using the flatlist
 const components = [Header, QuickPicks, Albums, BCardio, Explore];

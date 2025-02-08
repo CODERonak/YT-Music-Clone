@@ -4,7 +4,7 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import Entypo from '@expo/vector-icons/Entypo';
 
-const Explore = () => {
+const ExploreComp = () => {
     return (
         <View className='mt-10 ml-6'>
             {/* Heading */}
@@ -52,4 +52,4 @@ const Explore = () => {
     )
 }
 
-export default Explore
+export default ExploreComp

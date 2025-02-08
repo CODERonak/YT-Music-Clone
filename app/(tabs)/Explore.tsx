@@ -1,5 +1,6 @@
 import { View, Text } from 'react-native'
 import React from 'react'
+import ExploreComp from '../components/Home/ExploreComp';
 
 const Explore = () => {
     return (
@@ -7,7 +8,7 @@ const Explore = () => {
         <View className='bg-black flex-1'>
             {/* Main container */}
             <View>
-
+            <ExploreComp />
             </View>
         </View>
     )
